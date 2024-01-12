@@ -25,4 +25,5 @@ The following is a list of possible contexts to be found throughout the book:
   - `[context]: # (important rule)`
   - `[context]: # (list of examples)`
   - `[context]: # (roll summary)`
+  - `[context]: # (table footnote)`
   - `[context]: # (tips)`
