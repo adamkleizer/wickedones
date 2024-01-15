@@ -21,10 +21,12 @@ These contexts are directly preceding the blockquotes affected. The blockquotes 
 Blockquotes without a context are indeed quotes in the book, without any further distinction in meaning.  
 The following is a list of possible contexts to be found throughout the book:
   - `[context]: # (chances)`
+  - `[context]: # (complete list)`
   - `[context]: # (example of play)`
   - `[context]: # (important rule)`
   - `[context]: # (list of examples)`
   - `[context]: # (roll summary)`
+  - `[context]: # (summarizing subtitle)`
   - `[context]: # (table footnote)`
   - `[context]: # (tips)`
 - Clocks are represented by circles in the book as is customary in Forged in the Dark games. We can't add circles here, so we use tables. We add a header to the table and mark it with the clock's name as metadata. We wrap the table in a blockquote so the metadata is correctly hidden on github.  
