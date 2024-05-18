@@ -35,5 +35,5 @@ The following is a list of possible contexts to be found throughout the book:
 `[clock]: # "Fences & Dogs"`  
 `>|1|2|3|4|`  
 `>|-|-|-|-|`  
-`>|x|`  
+`>|x|o|o|o|`  
 *(Note: we could use Mermaid to show pie charts but I'm not convinced that's a better solution than tables for this purpose.)*
