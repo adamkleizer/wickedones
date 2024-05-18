@@ -12,14 +12,19 @@ You can go to [https://creativecommons.org/publicdomain/zero/1.0/] to view the l
 
 # Markdown specifics
 
-- Comments are added to the markdown with the following notation:  
-`[comment]: # (free text)`
+- Comments are added to the markdown with the following notation:
+  
+  `[comment]: # (free text)`
 
-- Textboxes and styled paragraphs from the book are added using blockquotes, the purpose of the styling (as conceived by the markdown creator) is marked with the following notation:  
-`[context]: # (purpose)`  
-These contexts are directly preceding the blockquotes affected. The blockquotes that are in a single enclosure semantically (and visually in the book) and thus affected by the notation are following each other without empty lines in-between.  
-Blockquotes without a context are indeed quotes in the book, without any further distinction in meaning.  
-The following is a list of possible contexts to be found throughout the book:
+- Textboxes and styled paragraphs from the book are added using blockquotes, the purpose of the styling (as conceived by the markdown creator) is marked with the following notation:
+  
+  `[context]: # (purpose)`
+  
+  These contexts are directly preceding the blockquotes affected. The blockquotes that are in a single enclosure semantically (and visually in the book) and thus affected by the notation are following each other without empty lines in-between.
+  
+  Blockquotes without a context are indeed quotes in the book, without any further distinction in meaning.
+  
+  The following is a list of possible contexts to be found throughout the book:
   - `[context]: # (chances)`
   - `[context]: # (complete list)`
   - `[context]: # (example of play)`
@@ -29,11 +34,24 @@ The following is a list of possible contexts to be found throughout the book:
   - `[context]: # (summarizing subtitle)`
   - `[context]: # (table footnote)`
   - `[context]: # (tips)`
-- Clocks are represented by circles in the book as is customary in Forged in the Dark games. We can't add circles here, so we use tables. We add a header to the table and mark it with the clock's name as metadata. We wrap the table in a blockquote so the metadata is correctly hidden on github.  
-`#### Fences & Dogs`  
-` `  
-`[clock]: # "Fences & Dogs"`  
-`>|1|2|3|4|`  
-`>|-|-|-|-|`  
-`>|x|o|o|o|`  
-*(Note: we could use Mermaid to show pie charts but I'm not convinced that's a better solution than tables for this purpose.)*
+
+- Clocks are represented by circles in the book as is customary in Forged in the Dark games. We can't add circles here, so we use tables. We add a header to the table and mark it with the clock's name as metadata. We wrap the table in a blockquote so the metadata is correctly hidden on github.
+
+  *Source:*
+
+  `#### Fences & Dogs`  
+  ` `  
+  `[clock]: # "Fences & Dogs"`  
+  `>|1|2|3|4|`  
+  `>|-|-|-|-|`  
+  `>|x|o|o|o|`
+  
+  *Output:*
+  #### Fences & Dogs
+  
+  [clock]: # "Fences & Dogs"
+  > |1|2|3|4|
+  > |-|-|-|-|
+  > |x|o|o|o|
+
+
