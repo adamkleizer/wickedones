@@ -35,7 +35,28 @@ You can go to [https://creativecommons.org/publicdomain/zero/1.0/] to view the l
   - `[context]: # (table footnote)`
   - `[context]: # (tips)`
 
-- Clocks are represented by circles in the book as is customary in Forged in the Dark games. We can't add circles here, so we use tables. We add a header to the table and mark it with the clock's name as metadata. We wrap the table in a blockquote so the metadata is correctly hidden on github.
+- Roll results are displayed with the following convention:
+
+  `[rollresult]: "Result title{attribute1:value1,attribute2:value2}"`  
+  `> (3d6) = 1, 2, 3`  
+  `>`  
+  `> **Outcome**`
+
+  *Source:*
+
+  `[rollresult]: # "Failure{dice-color:gray}"`  
+  `> (3d6) = 1, 2, 3`  
+  `>`  
+  `> **Failure**`
+  
+  *Output:*
+
+  [rollresult]: # "Failure{dice-color:gray}"
+  > (3d6) = 1, 2, 3
+  >
+  > **Failure**
+
+- Clocks are represented by circles in the book as is customary in Forged in the Dark games. We can't add circles here, so we use tables. We add a header to the table and mark it with the clock's name and attributes as metadata. We wrap the table in a blockquote so the metadata is correctly hidden on github.
 
   *Source:*
 
